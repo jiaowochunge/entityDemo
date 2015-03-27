@@ -14,6 +14,9 @@
 		B0CDE33B1AC53195005F9792 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CDE33A1AC53195005F9792 /* Images.xcassets */; };
 		B0CDE33E1AC53195005F9792 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0CDE33C1AC53195005F9792 /* LaunchScreen.xib */; };
 		B0CDE34A1AC53195005F9792 /* entityDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CDE3491AC53195005F9792 /* entityDemoTests.m */; };
+		B0CDE3551AC531C2005F9792 /* EntityForward.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CDE3541AC531C2005F9792 /* EntityForward.m */; };
+		B0CDE3581AC53DC4005F9792 /* KVCEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CDE3571AC53DC4005F9792 /* KVCEntity.m */; };
+		B0CDE35B1AC5401B005F9792 /* StudentKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CDE35A1AC5401B005F9792 /* StudentKVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		B0CDE3431AC53195005F9792 /* entityDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = entityDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CDE3481AC53195005F9792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0CDE3491AC53195005F9792 /* entityDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = entityDemoTests.m; sourceTree = "<group>"; };
+		B0CDE3531AC531C2005F9792 /* EntityForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityForward.h; sourceTree = "<group>"; };
+		B0CDE3541AC531C2005F9792 /* EntityForward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityForward.m; sourceTree = "<group>"; };
+		B0CDE3561AC53DC4005F9792 /* KVCEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCEntity.h; sourceTree = "<group>"; };
+		B0CDE3571AC53DC4005F9792 /* KVCEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCEntity.m; sourceTree = "<group>"; };
+		B0CDE3591AC5401B005F9792 /* StudentKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentKVC.h; sourceTree = "<group>"; };
+		B0CDE35A1AC5401B005F9792 /* StudentKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentKVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				B0CDE3321AC53195005F9792 /* AppDelegate.m */,
 				B0CDE3341AC53195005F9792 /* ViewController.h */,
 				B0CDE3351AC53195005F9792 /* ViewController.m */,
+				B0CDE3531AC531C2005F9792 /* EntityForward.h */,
+				B0CDE3541AC531C2005F9792 /* EntityForward.m */,
+				B0CDE3561AC53DC4005F9792 /* KVCEntity.h */,
+				B0CDE3571AC53DC4005F9792 /* KVCEntity.m */,
+				B0CDE3591AC5401B005F9792 /* StudentKVC.h */,
+				B0CDE35A1AC5401B005F9792 /* StudentKVC.m */,
 				B0CDE3371AC53195005F9792 /* Main.storyboard */,
 				B0CDE33A1AC53195005F9792 /* Images.xcassets */,
 				B0CDE33C1AC53195005F9792 /* LaunchScreen.xib */,
@@ -219,6 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CDE3551AC531C2005F9792 /* EntityForward.m in Sources */,
+				B0CDE3581AC53DC4005F9792 /* KVCEntity.m in Sources */,
+				B0CDE35B1AC5401B005F9792 /* StudentKVC.m in Sources */,
 				B0CDE3361AC53195005F9792 /* ViewController.m in Sources */,
 				B0CDE3331AC53195005F9792 /* AppDelegate.m in Sources */,
 				B0CDE3301AC53195005F9792 /* main.m in Sources */,
